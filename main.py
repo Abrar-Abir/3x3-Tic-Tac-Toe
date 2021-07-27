@@ -105,10 +105,16 @@ def matchCell(moves):
 				cell2 = moves[j]
 				if cell1 % 3 == cell2 % 3:
 					cell = (3 - (cell1//3) - (cell2//3))*3 + (cell1 % 3)
+					if cell in cells:
+						return cell
 				elif cell1//3 == cell2//3:
 					cell = (3 - (cell1 % 3) - (cell2 % 3)) + (cell1//3)*3
+					if cell in cells:
+						return cell
 				elif cell1 % 2 == cell2 % 2 == 0 and (cell1 == 4 or cell2 == 4):
 					cell = 12 - cell1 - cell2
+					if cell in cells:
+						return cell
 	return cell
 
 def drawCross(cells): # computer takes move
