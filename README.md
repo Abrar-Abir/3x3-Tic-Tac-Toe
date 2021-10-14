@@ -1,11 +1,10 @@
-# Edge-2021-Python-Project
+# 3x3 Tic-Tac-Toe (Computer vs. Human) [PyGame]
 
-## 3x3 Tic-Tac-Toe [Computer vs. Human] supported by PyGame.
+## Edge-2021-Python-Project
 
 ---
-> I have put all the resources here that I have used to complete my project. 
+> User can choose to go first or not. The program takes moves logically, hence, cannot be beaten.
 
-* Resources:
-> I have never worked with **Mark Down** language  or **PyGame module** before now. Hence, I have used the following resources. 
+* Resources: 
 1. [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 2. [Python Pygame Tutprial | CodersLegacy](https://coderslegacy.com/python/python-pygame-tutorial/)
